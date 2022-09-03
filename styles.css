@@ -1,0 +1,98 @@
+.container {
+  width: 70%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  /*background-color: #393E46;*/
+  background-color: #161616;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  /*color: #4ECCA3;*/
+  color: #C84B31;
+}
+
+h5{
+  color: #C84B31;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.hidden{
+  display: none;
+}
+
+.scoreboard{
+  text-align: center;
+  margin: 100px auto;
+}
+
+p {
+  font-size: 2rem;
+  /*color: #4ECCA3;*/
+  color: #C84B31;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+.btn-container{
+  text-align: center;
+  margin: auto;
+}
+
+.play-btn{
+  font-size: 2rem;
+  background-color: #4ECCA3;
+  color: #C84B31;
+  margin: 30px auto;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+@media screen and (max-width: 760px){
+
+  .container{
+    margin: 100px auto 0;
+  }
+
+  h1{
+    font-size: 2.4rem;
+  }
+
+  .dice{
+    width: 30%;
+  }
+
+  p{
+    font-size: 1.6rem;
+  }
+
+  img{
+    width: 70%;
+  }
+
+  .play-btn{
+    font-size: 1.6rem;
+  }
+
+}

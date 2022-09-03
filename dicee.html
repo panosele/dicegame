@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Play ???</h1>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice6.png" alt="dice1image">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice6.png" alt="dice2image">
+      </div>
+
+    </div>
+
+    <div class="btn-container">
+      <button type="button" onclick="getRandomImage()" class="play-btn">PLAY</button>
+    </div>
+
+    <div class="hidden">
+      <h5 class="player1Score">Player 1:</h5>
+      <h5 class="player2Score">Player 2:</h5>
+      <h5 class="draws">Draws:</h5>
+    </div>
+
+  <script src="index.js" type="text/javascript"></script>
+  </body>
+
+  <footer>
+    @ Panagiotis Eleftheriadis, 2022
+  </footer>
+</html>
